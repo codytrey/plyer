@@ -17,9 +17,9 @@ implement the api in the easiest way, depending on the current platform.
 Supported APIs
 --------------
 
-================================== ======= === ======= ==== =====
-Platform                           Android iOS Windows OS X Linux
-================================== ======= === ======= ==== =====
+================================== ======= === ======= ==== ===== =======
+Platform                           Android iOS Windows OS X Linux FreeBSD
+================================== ======= === ======= ==== ===== =======
 Accelerometer                      X       X           X    X
 Call                               X       X
 Camera (taking picture)            X       X
@@ -38,7 +38,7 @@ Orientation                        X
 Audio recording                    X
 Flash                              X       X
 Wifi                                           X       X    X
-================================== ======= === ======= ==== =====
+================================== ======= === ======= ==== ===== =======
 
 Support
 -------
