@@ -59,7 +59,7 @@ class Platform(object):
             return 'macosx'
         elif _sys_platform[:5] == 'linux':
             return 'linux'
-        elif _sys_platform[:6] == 'freebsd':
+        elif _sys_platform[:7] == 'freebsd':
             return 'freebsd'
         return 'unknown'
 
